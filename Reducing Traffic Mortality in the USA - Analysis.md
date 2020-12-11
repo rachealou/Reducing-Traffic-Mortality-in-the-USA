@@ -1,4 +1,4 @@
-1. The raw data files and their format
+**1. The raw data files and their format**
 We can open the data set needed for this analysis and by peaking into the types of independent variables and depedent variables provided in the general data sets. 
 
 2. Read in and get an overview of the data
