@@ -16,6 +16,7 @@ Y = -0.04180041 + 0.19086404x<sub>1</sub> + 0.02473301<sub>2</sub>
 
 **6. Perform PCA on standardized data**  
 
+
 **7. Visualize the first two principal components**
 
 **8. Find clusters of similar states in the data**  
@@ -26,4 +27,4 @@ Y = -0.04180041 + 0.19086404x<sub>1</sub> + 0.02473301<sub>2</sub>
 
 **11. Compute the number of accidents within each cluster**  
 
-**12. Make a decision there is no celar right choice**  
+**12. Make a decision there is no clear right choice**  
