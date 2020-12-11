@@ -11,7 +11,7 @@ Summary statistics for the csv is created. A pairplot is also created to  plot t
 Compute the Pearson correlation coefficient matrix which indicates the Pearson correlation coefficient which gives the statistical relationship between two continuous variables. From our data, perc_fatl_alcohol and perc_fatl_speed have the strongest statistical relationship wtih a Pearson correlation coefficient of 0.286244.
 
 **5. Fit a multivariate linear regression**
-Compute a multivariate regression model which demonstrates a many-to-one relationship between multiple indenpendent variables to a single dependent variable. The dependent variable is drvr_fatl_col_bmiles. Given the regression coefficients, we see that the linear regression model can be defined as:
+Compute a multivariate regression model which demonstrates a many-to-one relationship between multiple indenpendent variables to a single dependent variable. The dependent variable is drvr_fatl_col_bmiles. Given the regression coefficients, we see that the linear regression model can be defined as:  
 Y = -0.04180041 + 0.19086404x<sub>1</sub> + 0.02473301<sub>2</sub>
 
 **6. Perform PCA on standardized data**  
