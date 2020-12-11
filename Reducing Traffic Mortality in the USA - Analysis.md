@@ -15,16 +15,23 @@ Compute a multivariate regression model which demonstrates a many-to-one relatio
 Y = -0.04180041 + 0.19086404x<sub>1</sub> + 0.02473301<sub>2</sub>
 
 **6. Perform PCA on standardized data**  
+The data was scaled using StandardScaler such that the mean will be 0 and the standard deviation will be 1. Then, fit_transform() is applied which fits the data and applies the transformation to the set of data. The principal components are the clusters that are highly correlated with each other. The graph demonsrates the proportion of variance explained for each principal component. PC 1 leads in variance explained followed by PC 2. The first two principal components will be focused on. 
 
-
-**7. Visualize the first two principal components**
+**7. Visualize the first two principal components**  
+A scatter plot is produced of the first two principal components. This is to visualize the cluster relatinoship (if any) among the three independent variables in the data.There seems to be a weakly negative correlation between the two principals and their independent variables due to the lack of clusters. 
 
 **8. Find clusters of similar states in the data**  
+A scree plot is created in hopes of finding clusters within the first two PCs that were not visualized in the scatterplot. In the elbow of the scree plot (the points above the line before the line "flattens"), there are no points hence, no clear elbow exists. 
 
 **9. KMeans to visualize clusters in the PCA scatter plot**  
+As there was no clear elbow, we assign the number of clusters to 2-3 and further investigate for clusters with colour-coordination.
 
 **10. Visualize the feature differences between the clusters**  
+Each PC is composed of three factors namely, drivers speeding, under alcohol influence, and had not previously been in accident. We can further subdivide each of these clusters by investigating them using a violin plot. Each cluster is represented by a colour split up into the three factors. For each of the clusters, the majourity of accidents seem to be associated with perc_fatl_1st_time (had not previously been in an accident) as many of the violin parts for that category are on the far right. 
 
 **11. Compute the number of accidents within each cluster**  
+Data regarding the number of miles in each state will be merged with the pre-existing data as it will help to compute the total number of fatal accidents in each state. The number of fatal accidents per mile is multipled with millions traveled annually in the new data to compute a bar graph with the cluster data and sum statistics. 
 
 **12. Make a decision there is no clear right choice**  
+Further investigation needs to be conducted before making any decision regarding new driving policies. However, the cluster that comes to my focus is cluster #2 as the number of total fatal accidents per state was the highest in this cluster and could offer insight regarding the different demographics of fatal accidents and a solution that can stop many of them.
+
