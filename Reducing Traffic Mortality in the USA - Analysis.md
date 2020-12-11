@@ -8,6 +8,7 @@ We will peak now closer into the csv road-accidents.csv inside of datasets and o
 Summary statistics for the csv is created. A pairplot is also created to  plot the pairwise relationship between each variable in the data set. A few examples would be drvr_fatl_col_bmiles with drvr_fatl_col_bmiles, perc_fatl_speed, perc_fatl_alcohol_, and perc_fatl_1st_time. There are n<sup>2</sup> pairwise graphs given n is the number of variables.
 
 **4. Quantify the association of features and accidents**
+Compute the Pearson correlation coefficient matrix which indicates the Pearson correlation coefficient which gives the statistical relationship between two continuous variables. From our data, perc_fatl_alcohol and perc_fatl_speed have the strongest statistical relationship wtih a Pearson correlation coefficient of 0.286244.
 
 **5. Fit a multivariate linear regression**
 
