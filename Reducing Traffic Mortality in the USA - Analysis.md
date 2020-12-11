@@ -5,7 +5,7 @@ We can open the data set needed for this analysis and by peaking into the types 
 We will peak now closer into the csv road-accidents.csv inside of datasets and obtain general information about this csv.
 
 **3. Create a textual and a graphical summary of the data**  
-Summary statistics for the csv is created. A pairplot is also created to  plot the pairwise relationship between each variable in the data set. A few examples would be drvr_fatl_col_bmiles with drvr_fatl_col_bmiles, perc_fatl_speed, perc_fatl_alcohol_, and perc_fatl_1st_time. There are n^2 pairwise graphs given n is the number of variables.
+Summary statistics for the csv is created. A pairplot is also created to  plot the pairwise relationship between each variable in the data set. A few examples would be drvr_fatl_col_bmiles with drvr_fatl_col_bmiles, perc_fatl_speed, perc_fatl_alcohol_, and perc_fatl_1st_time. There are n<sup>2</sup> pairwise graphs given n is the number of variables.
 
 **4. Quantify the association of features and accidents**
 
